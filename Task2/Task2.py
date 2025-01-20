@@ -1,4 +1,6 @@
+
 text = input()
+k = len(text)
 a = text.count('a')
 if a > 0:
     print ("Количество букв а = ", a)
@@ -24,3 +26,6 @@ if u > 0:
     print ("Количество букв u = ", u)
 else:
    print ("False")
+g = a+e+i+o+u
+print ("Общее количество гласных = ", g)
+print ("Общее количество согласных = ",k-g)
